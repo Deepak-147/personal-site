@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+     /* 16px = 1em = 100% = 1rem */
+     /* Recommended to use rem as it is least error prone and most reliable */
+    font-size: 5.625rem; /* equal to 5.625*16 = 90px */
+    color: #1A3C40;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem; /* equal to 40px */
+    color: #1A3C40;
+    font-weight: normal;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+hr {
+    border: dotted #ECE8D9 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 70px auto;
+}
+
+
+.top-container {
+    background-color: #E4EDDB;
+    position: relative;
+    padding-top: 100px;
+}
+.top-cloud-img {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    width: 15%;
+}
+.bottom-cloud-img {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+    width: 15%;
+}
+.mountain-img {
+    width: 25%;
+}
+.general-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    line-height: 2;
+    color: #1A3C40;
+}
+.middle-container {
+    background-color: #FFFDF6;
+    padding: 100px 0;
+}
+.profile-section {
+
+}
+.profile-pic {
+    width: 10%;
+}
+.intro-text {
+    width: 50%;
+    margin: auto;
+}
+.skills-section {
+
+}
+.skill-pic {
+    width: 3%;
+}
+.skills-subsection {
+    width: 40%;
+    margin: auto;
+}
+.skill-row {
+    margin-left: 20px;
+    text-align: left;
+}
+.skill-category-text {
+    display: inline;
+    font-weight: 700;
+}
+.skill-content-text {
+
+}
+.contact-me-section {
+
+}
+.contact-pic {
+    width: 3%;
+}
+.contact-text {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.email-btn {
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    color: #E4EDDB;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    line-height: 2;
+    background: #1A3C40;
+    padding: 10px 15px;
+    border: solid #1A3C40 2px;
+    text-decoration: none;
+}
+.email-btn:hover {
+    background: #E4EDDB;
+    color: #1A3C40;
+}
+
+.bottom-container {
+    background-color: #1A3C40;
+    padding-top: 50px;
+}
+.footer-sm-link {
+    width: 30px;
+    height: 30px;
+}
+a {
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 20px;
+    text-decoration: none;
+}
+.copyright-text {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    color: #E4EDDB;
+    line-height: 2;
+    padding: 25px 0px;
+}
